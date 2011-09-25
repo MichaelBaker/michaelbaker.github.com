@@ -2,10 +2,44 @@
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <title>Test</title>
+    <style type="text/css" media="screen">
+    @-webkit-keyframes swing {
+      0% {
+        text-shadow: #939781 5px 0px 0;
+      }
+      50% {
+        text-shadow: #458A97 0px 5px 0;
+      }
+      100% {
+        text-shadow: #970923 -5px 0px 0;
+      }
+    }
+
+    html {
+      background: #2E2C33;
+    }
+
+    p {
+      font-weight: bold;
+      position: relative;
+      top: 30%;
+      font-size: 94px;
+      color: #FDFFE9;
+      margin: auto;
+      text-align: center;
+      text-shadow: #939781 3px 3px 0;
+      font-family: sans-serif;
+      -webkit-animation-name: swing;
+      -webkit-animation-duration: 1s;
+      -webkit-animation-iteration-count: infinite;
+      -webkit-animation-timing-function: ease-in-out;
+      -webkit-animation-direction: alternate;
+    }
+    </style>
   </head>
   <body>
     <p>
-      Y hello thar
+      ~ Y hello thar ~
     </p>
   </body>
 </html>
